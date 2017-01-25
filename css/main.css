@@ -545,9 +545,12 @@ ul.items li:nth-child(even) h3 {
 #sample-section-01 .wrap-image.overlay {
   background-color: rgba(0,0,0,1);
 }
-#sample-section-02 .wrap-image {
+#sample-section-02 .wrap-image.overlay:before {
   background: url(../img/athens-ga-2.jpg) center center no-repeat;
   background-size: cover;
+}
+#sample-section-02 .wrap-image.overlay {
+  background-color: rgba(0,0,0,1);
 }
 #sample-section-03 .wrap-image.overlay:before {
   background: url(../img/athens-ga-3.jpg) center center no-repeat;
