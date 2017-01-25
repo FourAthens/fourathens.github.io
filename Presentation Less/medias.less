@@ -1,0 +1,243 @@
+// out: ../css/medias.css, compress: false
+
+@import "default.less";
+
+@media only screen and (max-width: 600px) {
+	
+	.arrow-up,.arrow-down{
+		display: none;
+	}
+	
+	h1{
+		font-size: 24px;
+		line-height: 30px;
+		margin-top: 20px;
+	}
+	
+	h2{
+		margin: 10px 0px;
+		font-size: 18px;
+		line-height: 24px;
+	}
+	
+	#intro h1{
+		font-size: 48px;
+		line-height: 40px;
+	}
+	
+	#intro h2{
+		font-size: 22px;
+	}
+	
+	#intro h3{
+		font-size: 16px;
+	}
+	
+	.info h2{
+		margin: 0px 0px 15px 0px;
+		line-height: 36px;
+	}
+
+	
+	#intro h1{
+		font-size: 60px;
+		line-height: 48px;
+	}
+	
+	#intro h2{
+		font-size: 24px;
+	}
+	
+	#intro h3{
+		font-size: 18px;
+	}
+	
+	p{
+		font-size: 14px;
+		line-height: 18px;
+	}
+	
+	#menu ul.items{
+		
+		li{
+			.initials{
+				display: none;
+			}
+			
+			ul{
+				margin-bottom: 15px;
+				
+				li{
+					border-top: 1px solid @grey-light;
+				}
+			}
+			
+			width:100%;
+			border-top: 1px solid @corporate-color-2;
+			margin: 0px 0px 0px 0px;
+			padding: 0;
+		}
+		
+		li:nth-child(even), li:nth-child(odd){
+		
+			   h3{
+				   color: @corporate-color-2;
+			   }
+		}
+		
+	}
+	
+	.charts{
+		
+		.container{
+			padding: 50px 0px 20px 0px;
+		}
+		
+		.col-sm-6{
+			min-height: 225px;
+		}
+		
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	
+	#intro h1{
+		font-size: 48px;
+		line-height: 40px;
+	}
+	
+	#intro h2{
+		font-size: 22px;
+	}
+	
+	#intro h3{
+		font-size: 16px;
+	}
+	
+	.fp-controlArrow{
+	   margin-top: -50px;
+   }
+   
+   .fp-controlArrow.fp-prev{
+	   border-width: 50px 0px 50px 50px;
+   }
+   
+   .fp-controlArrow.fp-prev::after{
+		font-size: 110px;
+		margin-left: -60px;
+   }
+   
+   .fp-controlArrow.fp-next{
+	   border-width: 50px 50px 50px 0px;
+   }
+   
+   .fp-controlArrow.fp-next::after{
+		font-size: 110px;
+		margin-left: 20px;
+   }
+
+	.wrap-chart {
+		padding: 0 10px;
+	}
+}
+
+/* iPhone 6 in landscape */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) {
+
+   .arrow-up::after{
+       margin-left: -9px;
+       margin-top: 0px;
+       top: -20px;
+       font-size: 48px;
+   }
+
+   .arrow-up{
+       margin-left: -40px;
+       border-width: 40px 40px 0px 40px;
+   }
+
+   .arrow-down::after{
+       font-size: 48px;
+       line-height: 0px;
+       margin-left: -9px;
+       margin-top: 0px;
+       top: 20px;
+   }
+
+   .arrow-down{
+       margin-left: -40px;
+       border-width: 0px 40px 40px 40px;
+   }
+
+
+}
+
+/* iPhone 5 & 5S in landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) {
+
+   .arrow-up::after{
+       margin-left: -9px;
+       margin-top: 0px;
+       top: -20px;
+       font-size: 48px;
+   }
+
+   .arrow-up{
+       margin-left: -40px;
+       border-width: 40px 40px 0px 40px;
+   }
+
+   .arrow-down::after{
+       font-size: 48px;
+       line-height: 0px;
+       margin-left: -9px;
+       margin-top: 0px;
+       top: 20px;
+   }
+
+   .arrow-down{
+       margin-left: -40px;
+       border-width: 0px 40px 40px 40px;
+   }
+
+}
+
+/* iPhone 2G-4S in landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : landscape) {
+
+   .arrow-up::after{
+       margin-left: -9px;
+       margin-top: 0px;
+       top: -20px;
+       font-size: 48px;
+   }
+
+   .arrow-up{
+       margin-left: -40px;
+       border-width: 40px 40px 0px 40px;
+   }
+
+   .arrow-down::after{
+       font-size: 48px;
+       line-height: 0px;
+       margin-left: -9px;
+       margin-top: 0px;
+       top: 20px;
+   }
+
+   .arrow-down{
+       margin-left: -40px;
+       border-width: 0px 40px 40px 40px;
+   }
+
+}
