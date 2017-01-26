@@ -557,5 +557,26 @@ ul.items li:nth-child(even) h3 {
   background-size: cover;
 }
 #sample-section-03 .wrap-image.overlay {
-  background-color: #ff3300;
+  background-color: #009DD4;
+}
+#community .wrap-image.overlay:before {
+  background: url(../img/community.jpg) center center no-repeat;
+  background-size: cover;
+}
+#community .wrap-image.overlay {
+  background-color: #009DD4;
+}
+#talent .wrap-image.overlay:before {
+  background: url(../img/talent.jpg) center center no-repeat;
+  background-size: cover;
+}
+#talent .wrap-image.overlay {
+  background-color: #009DD4;
+}
+#goals-section .wrap-image.overlay:before {
+  background: url(../img/goals.jpg) center center no-repeat;
+  background-size: cover;
+}
+#goals-section .wrap-image.overlay {
+  background-color: #009DD4;
 }
